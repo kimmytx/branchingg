@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>illegal website</title>
 
     <h1>illegal website</h1>
@@ -13,6 +14,7 @@
 function sayHi() {
   alert("welcome to my illegal website");
 }
+
 
 
 </script>
@@ -27,8 +29,97 @@ function sayHi() {
 </head>
 <body>
     
+    <nav>
+
+<li>home</li>
+<li>about us</li>
+<li>contact</li>
 
 
+
+
+    </nav>
+
+<button class="ego">hakdog</button>
+
+<style>
+.ego {
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.ego:hover {
+  transform: scale(2);
+}
+</style>
+
+<p class="rainbow">pag rainbow nakita mo magkakapera ka</p>
+
+<style>
+.rainbow {
+  animation: kulay 1s infinite;
+}
+
+@keyframes kulay {
+  0% { color: red; }
+  25% { color: yellow; }
+  50% { color: blue; }
+  75% { color: green; }
+  100% { color: purple; }
+}
+</style>
+
+
+<button class="shake">Click me kung sure ka 😳</button>
+
+<style>
+.shake:hover {
+  animation: galaw 0.2s infinite;
+}
+
+@keyframes galaw {
+  0% { transform: translate(0); }
+  25% { transform: translate(5px, -5px); }
+  50% { transform: translate(-5px, 5px); }
+  75% { transform: translate(5px, 5px); }
+  100% { transform: translate(-5px, -5px); }
+}
+</style>
+
+<div class="ikot">😭</div>
+
+<style>
+.ikot {
+  font-size: 50px;
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style>
+
+
+
+<div class="loading"></div>
+
+<style>
+.loading {
+  width: 0;
+  height: 20px;
+  background: rgb(4, 5, 4);
+  animation: load 3s infinite;
+}
+
+@keyframes load {
+  0% { width: 0; }
+  50% { width: 100%; }
+  100% { width: 0; }
+}
+</style>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto, reiciendis reprehenderit explicabo repellat corporis suscipit nihil asperiores! Commodi quam voluptates numquam doloremque dignissimos sed beatae atque error sequi ipsa.</p>
 
